@@ -1,0 +1,24 @@
+{
+  {
+    {
+      https: //horizon-testnet.stellar.org/accounts/GBIARRCBY5KVFQGS7YTKDJO7IWILDZUMSN5ILNPOYFKZTBJENXLFS2TP false} {https://horizon-testnet.stellar.org/accounts/GBIARRCBY5KVFQGS7YTKDJO7IWILDZUMSN5ILNPOYFKZTBJENXLFS2TP/transactions{?cursor,limit,order} true} {https://horizon-testnet.stellar.org/accounts/GBIARRCBY5KVFQGS7YTKDJO7IWILDZUMSN5ILNPOYFKZTBJENXLFS2TP/operations{?cursor,limit,order} true
+    } {
+      https: //horizon-testnet.stellar.org/accounts/GBIARRCBY5KVFQGS7YTKDJO7IWILDZUMSN5ILNPOYFKZTBJENXLFS2TP/payments{?cursor,limit,order} true}
+      {
+        https: //horizon-testnet.stellar.org/accounts/GBIARRCBY5KVFQGS7YTKDJO7IWILDZUMSN5ILNPOYFKZTBJENXLFS2TP/effects{?cursor,limit,order} true} {https://horizon-testnet.stellar.org/accounts/GBIARRCBY5KVFQGS7YTKDJO7IWILDZUMSN5ILNPOYFKZTBJENXLFS2TP/offers{?cursor,limit,order} true
+      }
+    } {
+      GBIARRCBY5KVFQGS7YTKDJO7IWILDZUMSN5ILNPOYFKZTBJENXLFS2TP GBIARRCBY5KVFQGS7YTKDJO7IWILDZUMSN5ILNPOYFKZTBJENXLFS2TP
+    }
+    35775544272355331 0 {
+      0 0 0
+    } {
+      false false
+    }[{
+      9999.9999700 {
+        native
+      }
+    }][{
+      GBIARRCBY5KVFQGS7YTKDJO7IWILDZUMSN5ILNPOYFKZTBJENXLFS2TP 1 GBIARRCBY5KVFQGS7YTKDJO7IWILDZUMSN5ILNPOYFKZTBJENXLFS2TP ed25519_public_key
+    }] map[]
+  }
