@@ -15,7 +15,7 @@ func main() {
 
 	fmt.Println("Test send")
 
-	tx, err := b.Transaction(
+	tranx, err := b.Transaction(
 		b.SourceAccount{AddressOrSeed: from},
 		b.TestNetwork,
 		b.AutoSequence{SequenceProvider: horizon.DefaultTestNetClient},
@@ -31,7 +31,7 @@ func main() {
 		panic(err)
 	}
 
-	txe, err := tx.Sign(fromsecret)
+	txe, err := tranx.Sign(fromsecret)
 	if err != nil {
 		panic(err)
 	}
