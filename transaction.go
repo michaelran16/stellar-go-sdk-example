@@ -40,12 +40,13 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	fmt.Println("txeB64:", txeB64)
 
-	// convert txeB64 from XDR to readable transaction
-	blob := txeB64
-	fmt.Printf("blob base64: %s\n", txeB64)
+	//// convert txeB64 from XDR to readable transaction
+	//blob := txeB64
+	//fmt.Printf("blob base64: %s\n", txeB64)
 
-	resp, err := horizon.DefaultTestNetClient.SubmitTransaction(blob)
+	resp, err := horizon.DefaultTestNetClient.SubmitTransaction(txeB64)
 	if err != nil {
 		panic(err)
 	}
